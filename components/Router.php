@@ -45,7 +45,7 @@ class Router
 
                 // Проверить какой контроллер и action обрабатывает запрос
 
-                $segments = explode("/", $path);
+                $segments = explode("/", $internalRoute);
 //                echo '<pre>';
 //                print_r($segments);
 //                echo '<pre>';
